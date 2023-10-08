@@ -17,6 +17,7 @@ export default defineConfig({
       'helpers': '/src/helpers',
       'hooks': '/src/hooks',
       'providers': '/src/providers',
+      'animations': '/src/animations'
     }
   },
 

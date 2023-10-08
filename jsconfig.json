@@ -16,6 +16,9 @@
       ],
       "providers/*": [
         "providers/*"
+      ],
+      "animations/*": [
+        "animations/*"
       ]
     }
   },
