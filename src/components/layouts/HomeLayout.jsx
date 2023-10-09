@@ -2,6 +2,7 @@ import Header from 'components/common/Header';
 import Home from 'components/screens/home/Home';
 import Nav from 'components/common/Nav';
 import React from 'react';
+import Contact from 'components/common/Contact'
 
 const Layout = () => {
   return (
@@ -10,6 +11,7 @@ const Layout = () => {
         <Header />
         <Nav />
         <Home />
+        <Contact/>
         <div className='h-[4000px]'></div>
       </div>
     </>
