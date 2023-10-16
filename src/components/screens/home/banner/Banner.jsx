@@ -7,7 +7,7 @@ import { fadeIn } from 'animations/fadeIn';
 
 const Banner = () => {
   return (
-    <section className='min-h-[85vh] lg:min-h-[78vh] flex items-center' id='home'>
+    <section className='min-h-[85vh] flex items-center' id='home'>
       <div className='container mx-auto'>
         <div className='flex flex-col gap-y-8 lg:flex-row lg:items-center lg:gap-x-12'>
           <div className='flex-1 text-center font-secondary lg:text-left'>
@@ -17,7 +17,7 @@ const Banner = () => {
               whileInView={'show'}
               viewport={{ once: false, amount: 0.7 }}
               className='text-[55px] font-bold leading-[0.8] lg:text-[110px]'>
-              ARTEM <span>KALANTARYAN</span>
+              ANDRO <span>SEVENS</span>
             </motion.h1>
             <motion.div
               variants={fadeIn('up', 0.4)}
