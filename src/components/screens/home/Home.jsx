@@ -6,12 +6,12 @@ import Work from './work/Work';
 
 const Home = () => {
   return (
-    <div> 
+    <>
       <Banner />
       <About />
       <Services />
       <Work />
-    </div>
+    </>
   );
 };
 
